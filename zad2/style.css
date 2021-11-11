@@ -1,0 +1,51 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+
+.violet{
+    width: 100%;
+    height: 15%;
+    background-color: #8a2be2;
+}
+
+
+.gray{
+    background-color: gray;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background-color: green;
+    height: 5%;
+    width: 5%;
+}
+
+.bluedabadidabada{
+    position: fixed;
+    background-color: blue;
+    width: 10vh;
+    height: 10vh;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.weirdfootbutok{
+    position: absolute;
+    background-color: red;
+    width: 80%;
+    height: 10%;
+    right: calc(50% - 40%);
+    bottom: 0;
+    
+}
